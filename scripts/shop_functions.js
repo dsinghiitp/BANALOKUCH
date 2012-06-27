@@ -29,7 +29,7 @@ jQuery(document).ready(function(){
     jQuery(tablist).hover(function(){
         jQuery(".popout_all", this).css("top",jQuery(this).position().top+"px");
         jQuery(".popout_all", this).show();
-        
+
         jQuery(".denapada", this).css($denapadaaaahover_css);
         jQuery(this).css($tab_hover_css);
         

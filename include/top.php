@@ -98,18 +98,18 @@ function hideleftbar(){
                 <div class="<?php echo " $name"."-tab"; ?>">
                     <a class="denapada" href="<?php echo $url; ?>"><?php echo " $name"; ?></a>
                     <div class="popout_all">
-                        <ul>
+                        
                         <?php 
                         $categoryList    = getCategoryList_dhiru($catId_dhiru);
                         foreach ($categoryList as $category) {
                         extract($category);
                         ?>
-                        <li><a <?php echo "href=\"$url\""?>><?php echo " $name"; ?></a></li>
+                        <a class="denapada2" <?php echo "href=\"$url\""?>><?php echo " $name"; ?></a>
                         <?php
                         }
 
                         ?>
-                        </ul>
+                        
                 </div>
                 </div>
                 <?php

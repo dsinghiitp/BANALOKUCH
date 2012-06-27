@@ -355,10 +355,10 @@ color: white;
 
 
 #minicart_dropdown{
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
+    -moz-border-left-radius: 5px;    -moz-border-right-radius: 5px;
+    -ms-border-left-radius: 5px;    -ms-border-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-left-radius:  5px;    border-bottom-right-radius:  5px;
     border-bottom: none;
     margin-top: 30px;
     margin-left: 800px;
@@ -393,10 +393,10 @@ color: white;
 
 #sidebar {
 /*    border:2px solid black;*/
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
+    -moz-border-left-radius: 5px;    -moz-border-right-radius: 5px;
+    -ms-border-left-radius: 5px;    -ms-border-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-left-radius:  5px;    border-bottom-right-radius:  5px;
     border-bottom: none;
     z-index: 1;
         min-height: 216px;
@@ -483,7 +483,7 @@ color: white;
     
 
 }
-a.denapada {
+a.denapada,a.denapada2 {
 /*    font-family: fantasy;*/
     font-size: 15px;
     text-decoration: none;
@@ -496,6 +496,15 @@ a.denapada {
 	background: url(images/templatemo_list.png) center left no-repeat;
 }
 
+a:hover.denapada2{
+    padding-left: 24px;
+        color: #dd0034;
+        background-color: whitesmoke;
+/*//        border:1px dashed transparent;*/
+	
+/*//        border-right: none;*/
+        text-decoration: none;
+}
 .sidebar_section .image_wrapper {
 	border: 1px solid #c0afbb;
 	padding: 9px;
